@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<package>
+    <name>Intellimage_Attachs</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends />
+    <summary>Allows to attach files to any kind of products.</summary>
+    <description>Allows to attach files to any kind of products, as well it show the file list in the product view.</description>
+    <notes>version created at 06/01/2012 by Hugo Mauricio Prado Macat.</notes>
+    <authors>
+        <author>
+            <name>Hugo Mauricio Prado Macat</name>
+            <user>mauricioprado00</user>
+            <email>mauricioprado00@gmail.com</email>
+        </author>
+    </authors>
+    <date>2012-01-06</date>
+    <time>18:05:16</time>
+    <contents>
+        <target name="mageetc">
+            <dir name="modules">
+                <file name="Intellimage_Attachs.xml" hash="717cdd6b02930a19d444664426900677" />
+            </dir>
+        </target>
+        <target name="magecommunity">
+            <dir name="Intellimage">
+                <dir name="Attachs">
+                    <dir name="Block">
+                        <dir name="Adminhtml">
+                            <dir name="Catalog">
+                                <dir name="Product">
+                                    <dir name="Edit">
+                                        <dir name="Tab">
+                                            <file name="Downloadable.php" hash="cf4c58e3f1a899075ffaa7e09af01490" />
+                                        </dir>
+                                    </dir>
+                                </dir>
+                            </dir>
+                        </dir>
+                    </dir>
+                    <dir name="Model">
+                        <file name="Observer.php" hash="b705dc1ab2f18432e485dcbd8aa9c0c7" />
+                        <dir name="Product">
+                            <file name="Type.php" hash="952d415ea75ac025d23d4d9c309e9327" />
+                        </dir>
+                    </dir>
+                    <dir name="etc">
+                        <file name="config.xml" hash="9942b7fbef67546464e6e41443f3b807" />
+                    </dir>
+                    <dir name="sql">
+                        <dir name="attachs_setup">
+                            <file name="install-1.6.0.0.php" hash="26ded6d0355fbdc5835cde1d27955ef8" />
+                            <file name="mysql4-install-1.4.0.0.php" hash="2a0814482de095a16467a75886645202" />
+                            <file name="mysql4-upgrade-0.1.9-0.1.10.php" hash="3cddaf60cbb59f3a2adbe48e94edf057" />
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </target>
+        <target name="magedesign">
+            <dir name="frontend">
+                <dir name="base">
+                    <dir name="default">
+                        <dir name="layout">
+                            <file name="intellimage_attachs.xml" hash="1cbe5cfc30719af8a2d2de139814eab7" />
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+            <dir name="adminhtml">
+                <dir name="default">
+                    <dir name="default">
+                        <dir name="layout">
+                            <file name="intellimage_attachs.xml" hash="0f18b5a6134b7a41d5b1ad43f104dd37" />
+                        </dir>
+                    </dir>
+                </dir>
+            </dir>
+        </target>
+    </contents>
+    <compatible />
+    <dependencies>
+        <required>
+            <php>
+                <min>4.0.0</min>
+            </php>
+        </required>
+    </dependencies>
+</package>

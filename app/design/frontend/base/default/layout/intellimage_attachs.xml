@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ *
+ * @package     Intellimage_Attachs
+ * @email		mauricioprado00@gmail.com
+ * @copyright   Copyright (c) 2011 Hugo Mauricio Prado Macat. 
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<layout version="0.1.0">
+    <PRODUCT_TYPE_configurable translate="label" module="downloadable">
+        <label>Catalog Product View (Downloadable)</label>
+        <reference name="product.info">
+        	<block type="downloadable/catalog_product_samples" name="other" as="other" template="downloadable/catalog/product/samples.phtml"/>
+        	<!--
+            <block type="downloadable/catalog_product_view_type" name="other" as="other" template="downloadable/catalog/product/type.phtml">
+                 <block type="downloadable/catalog_product_samples" name="product.info.downloadable.samples" as="samples" template="downloadable/catalog/product/samples.phtml"/>
+            </block>
+            -->
+        </reference>
+        <!--
+        <reference name="product.info.options.wrapper">
+            <block type="downloadable/catalog_product_links" name="product.info.downloadable.options" as="type_downloadable_options" before="-" template="downloadable/catalog/product/links.phtml"/>
+            <action method="insert"><block>product.info.downloadable.options</block></action>
+        </reference>
+        -->
+    </PRODUCT_TYPE_configurable>
+    <PRODUCT_TYPE_simple translate="label" module="downloadable">
+        <label>Catalog Product View (Downloadable)</label>
+        <reference name="product.info">
+        	<block type="downloadable/catalog_product_samples" name="other" as="other" template="downloadable/catalog/product/samples.phtml"/>
+        	<!--
+            <block type="downloadable/catalog_product_view_type" name="other" as="other" template="downloadable/catalog/product/type.phtml">
+                 <block type="downloadable/catalog_product_samples" name="product.info.downloadable.samples" as="samples" template="downloadable/catalog/product/samples.phtml"/>
+            </block>
+            -->
+        </reference>
+    </PRODUCT_TYPE_simple>
+    <PRODUCT_TYPE_virtual translate="label" module="downloadable">
+        <label>Catalog Product View (Downloadable)</label>
+        <reference name="product.info">
+        	<block type="downloadable/catalog_product_samples" name="other" as="other" template="downloadable/catalog/product/samples.phtml"/>
+        	<!--
+            <block type="downloadable/catalog_product_view_type" name="other" as="other" template="downloadable/catalog/product/type.phtml">
+                 <block type="downloadable/catalog_product_samples" name="product.info.downloadable.samples" as="samples" template="downloadable/catalog/product/samples.phtml"/>
+            </block>
+            -->
+        </reference>
+    </PRODUCT_TYPE_virtual>
+    <PRODUCT_TYPE_bundle translate="label" module="downloadable">
+        <label>Catalog Product View (Downloadable)</label>
+        <reference name="product.info">
+        	<block type="downloadable/catalog_product_samples" name="other" as="other" template="downloadable/catalog/product/samples.phtml"/>
+        	<!--
+            <block type="downloadable/catalog_product_view_type" name="other" as="other" template="downloadable/catalog/product/type.phtml">
+                 <block type="downloadable/catalog_product_samples" name="product.info.downloadable.samples" as="samples" template="downloadable/catalog/product/samples.phtml"/>
+            </block>
+            -->
+        </reference>
+    </PRODUCT_TYPE_bundle>
+    <PRODUCT_TYPE_grouped translate="label" module="downloadable">
+        <label>Catalog Product View (Downloadable)</label>
+        <reference name="product.info">
+        	<block type="downloadable/catalog_product_samples" name="other" as="other" template="downloadable/catalog/product/samples.phtml"/>
+        	<!--
+            <block type="downloadable/catalog_product_view_type" name="other" as="other" template="downloadable/catalog/product/type.phtml">
+                 <block type="downloadable/catalog_product_samples" name="product.info.downloadable.samples" as="samples" template="downloadable/catalog/product/samples.phtml"/>
+            </block>
+            -->
+        </reference>
+    </PRODUCT_TYPE_grouped>
+</layout>

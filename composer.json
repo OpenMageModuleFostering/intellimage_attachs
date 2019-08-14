@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Intellimage_Attachs",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Allows to attach files to any kind of products.",
+    "authors": [
+    {
+        "name": "Hugo Mauricio Prado Macat",
+        "email": "mauricioprado00@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
